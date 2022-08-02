@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@metarichrad/sdk'
+import { currencyEquals, Trade } from '@uniswap/sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

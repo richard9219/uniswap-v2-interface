@@ -1,4 +1,4 @@
-import { ChainId } from '@metarichrad/sdk'
+import { ChainId } from '@uniswap/sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -131,8 +131,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.RINKEBY]: 'Rinkeby',
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
-  [ChainId.KOVAN]: 'Kovan',
-  [ChainId.BSCTEST]: 'BSCTest'
+  [ChainId.KOVAN]: 'Kovan'
 }
 
 export default function Header() {
